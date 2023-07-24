@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui_onboard.Fragment1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_onb3" />
+
+    <Button
+        android:id="@+id/btn_getstart"
+        android:layout_gravity="center|bottom"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="12dp"
+        android:background="@drawable/button"
+        android:text="GET STARTED" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

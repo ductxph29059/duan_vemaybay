@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.OnboardActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_onboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_edittext"
+        android:backgroundTint="#EBF1F1"
+        android:gravity="center"
+        android:text="Skip"
+        android:textSize="15dp"
+        app:layout_anchor="@id/pager_onboard"
+        app:layout_anchorGravity="right" />
+
+    <LinearLayout
+        android:id="@+id/layout_show_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_anchor="@id/pager_onboard"
+        app:layout_anchorGravity="bottom">
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/circle_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            app:ci_drawable="@drawable/bgr_onboard" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ic_next_onboard"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_next1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

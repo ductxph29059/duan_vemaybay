@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dsve_user">
+
+    <fragment
+        android:id="@+id/nav_dsve_user"
+        android:name="com.example.da1_group6.ui_user.Fragment_QLVMB_user"
+        android:label="Danh sách vé"
+        tools:layout="@layout/fragment_qlvmb_user" />
+
+    <fragment
+        android:id="@+id/nav_datve_user"
+        android:name="com.example.da1_group6.ui_user.Fragment_BookVe_user"
+        android:label="Đặt vé"
+        tools:layout="@layout/fragment_book_ve_user" />
+
+    <fragment
+        android:id="@+id/nav_info_user"
+        android:name="com.example.da1_group6.ui_user.Fragment_Info_user"
+        android:label="Thông tin cá nhân"
+        tools:layout="@layout/fragment__info_user" />
+
+    <fragment
+        android:id="@+id/nav_wallet_user"
+        android:name="com.example.da1_group6.ui_user.Fragment_Wallet_user"
+        android:label="Ví của tôi"
+        tools:layout="@layout/fragment_wallet_user" />
+
+    <fragment
+        android:id="@+id/nav_doimk_user"
+        android:name="com.example.da1_group6.ui_user.Fragment_DoiMK_user"
+        tools:layout="@layout/fragment_doi_mk"
+        android:label="Đổi mật khẩu" />
+
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.da1_group6.ui_admin.Fragment_Exit"
+        tools:layout="@layout/fragment__exit" />
+
+</navigation>

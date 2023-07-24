@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bgr"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="30dp">
+
+        <TextView
+            android:id="@+id/tv_notice_confirm_bookve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:text="Xác nhận thanh toán 1.000.000 VND?"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btnCancel_confirm_bookve"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button"
+            android:backgroundTint="#D34F4F"
+            android:gravity="center"
+            android:text="Huỷ"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_confirm_bookve"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/button"
+            android:backgroundTint="#D34F4F"
+            android:gravity="center"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

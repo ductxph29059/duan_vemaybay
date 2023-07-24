@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_qlyvemb_admin">
+
+    <fragment
+        android:id="@+id/nav_qlyvemb_admin"
+        android:name="com.example.da1_group6.ui_admin.Fragment_QLVMB_admin"
+        android:label="Quản lý vé máy bay"
+        tools:layout="@layout/fragment_qlvmb_admin" />
+
+    <fragment
+        android:id="@+id/nav_hangmb_admin"
+        android:name="com.example.da1_group6.ui_admin.Fragment_Qly_chuyenbay_hangmb"
+        android:label="Hãng máy bay + Chuyến bay"
+        tools:layout="@layout/fragment_qly_chuyenbay_hangmb" />
+    <fragment
+        android:id="@+id/nav_qlynv_admin"
+        android:name="com.example.da1_group6.ui_admin.Fragment_QLNV_admin"
+        android:label="Quản lý nhân viên"
+        tools:layout="@layout/fragment_qlnv_admin" />
+
+    <fragment
+        android:id="@+id/nav_confirm_money_admin"
+        android:name="com.example.da1_group6.ui_admin.Fragment_Confirm_Money_admin"
+        android:label="Xác nhận nạp tiền"
+        tools:layout="@layout/fragment__confirm__money" />
+    <fragment
+        android:id="@+id/nav_doanhthu_admin"
+        android:name="com.example.da1_group6.ui_admin.Fragment_Doanhthu_admin"
+        android:label="Doanh thu"
+        tools:layout="@layout/fragment_doanhthu_admin" />
+
+    <fragment
+        android:id="@+id/nav_doimk_admin"
+        android:name="com.example.da1_group6.ui_admin.Fragment_DoiMK_admin"
+        android:label="Đổi mật khẩu"
+        tools:layout="@layout/fragment_doi_mk" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.da1_group6.ui_admin.Fragment_Exit"
+        tools:layout="@layout/fragment__exit" />
+</navigation>

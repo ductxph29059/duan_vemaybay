@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/custom_header"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center"
+        android:id="@+id/avatar_inheader_user"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/img_avatar" />
+
+    <TextView
+        android:id="@+id/tv_hello_user"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Xin chào, \nNguyễn Văn A"
+        android:textSize="15dp"
+        android:padding="19dp"
+        android:lineHeight="30dp"
+        android:textStyle="bold"
+        android:textColor="#7b29f0"
+        android:gravity="left"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/sodu_in_header"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:text="Số dư: 500.000 vnđ"
+        android:textColor="#D80E0E"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="-140dp"/>
+</LinearLayout>

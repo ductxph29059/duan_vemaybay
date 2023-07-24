@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#0078b1"
+    android:layout_height="430dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0078b1"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_in_wallet"
+            android:gravity="center"
+            android:lineHeight="30dp"
+            android:text="love love lo      ve love love \nChào mừng bạn đến với FLY BEE !!! \nBạn nên cập nhật thông tin cá nhân để có thể sử dụng tất cả các chức năng của hệ thống. Chúc bạn ngày mới vui vẻ !!! \nFrom BEE POLY with love !"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_welcome"
+        android:layout_width="330dp"
+        android:layout_marginTop="-72dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_welcome" />
+
+</LinearLayout>
